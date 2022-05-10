@@ -40,8 +40,6 @@ def print_statistics():
 print('Сегодня мы потренируемся расшифровывать морзянку. \nНажмите Enter и начнем')
 input()
 
-count = 1
-
 for word in range(0, len(eng_words)):
     word = get_word()
     print(f'Слово {count} >>> {morse_encode(word)}')
